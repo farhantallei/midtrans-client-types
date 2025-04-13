@@ -1,0 +1,16 @@
+{
+  "name": "@farhantallei/midtrans-client-types",
+  "version": "1.0.0",
+  "description": "TypeScript type declarations for midtrans-client",
+  "author": {
+    "name": "Farhan Pradana Tallei",
+    "email": "farhan.pradana55@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["midtrans", "typescript", "types", "declarations"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/farhantallei/midtrans-client-types.git"
+  },
+  "types": "index.d.ts"
+}
