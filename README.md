@@ -1,4 +1,4 @@
-# @farhantallei/midtrans-client-types
+# @types/midtrans-client
 
 TypeScript declarations for [`midtrans-client`](https://github.com/Midtrans/midtrans-nodejs-client).  
 This package is intended to provide type safety when using Midtrans SDK in a TypeScript project.
