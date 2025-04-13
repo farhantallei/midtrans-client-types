@@ -1,5 +1,5 @@
 {
-  "name": "@farhantallei/midtrans-client-types",
+  "name": "@types/midtrans-client",
   "version": "1.0.0",
   "description": "TypeScript type declarations for midtrans-client",
   "author": {
