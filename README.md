@@ -13,22 +13,22 @@ You can install this package directly from GitHub:
 
 ### Using Bun
 ```bash
-bun add github:farhantallei/midtrans-client-types
+bun add -D github:farhantallei/midtrans-client-types
 ```
 
 ### Using npm
 ```bash
-npm install github:farhantallei/midtrans-client-types
+npm install -D github:farhantallei/midtrans-client-types
 ```
 
 ### Using Yarn
 ```bash
-yarn add github:farhantallei/midtrans-client-types
+yarn add -D github:farhantallei/midtrans-client-types
 ```
 
 ### Using pnpm
 ```bash
-pnpm add github:farhantallei/midtrans-client-types
+pnpm add -D github:farhantallei/midtrans-client-types
 ```
 
 ---
