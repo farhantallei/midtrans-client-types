@@ -1,6 +1,6 @@
 {
   "name": "@types/midtrans-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript type declarations for midtrans-client",
   "author": {
     "name": "Farhan Pradana Tallei",

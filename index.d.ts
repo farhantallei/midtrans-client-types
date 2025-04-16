@@ -53,6 +53,11 @@ declare module "midtrans-client" {
     credit_card?: {
       secure: boolean
     }
+    enabled_payments?: string[]
+    gopay?: {
+      enable_callback: boolean
+      callback_url: string
+    }
   }
 
   export interface CreateTransactionResponse {
