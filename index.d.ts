@@ -5,6 +5,8 @@ declare module "midtrans-client" {
 
   export type Unit = "minute"
 
+  export type TransactionType = "on-us"
+
   export type TransactionStatus =
     | "capture"
     | "settlement"
@@ -17,7 +19,8 @@ declare module "midtrans-client" {
 
   export type PaymentType = "qris" | "bank_transfer"
 
-  export type Acquirer = "" | "BCA"
+  export type Acquirer = "" | "gopay" | "BCA"
+  export type Issuer = "gopay"
 
   export interface MidtransClientOptions {
     isProduction: boolean
@@ -114,6 +117,26 @@ declare module "midtrans-client" {
     status_code: StatusCode
     status_message: string
     transactions: GetTransactionStatusResponse[]
+  }
+
+  export interface TransactionWebhookPayload {
+    transaction_type: TransactionType
+    transaction_time: string
+    transaction_status: TransactionStatus
+    transaction_id: string
+    status_message: string
+    status_code: StatusCode
+    signature_key: string
+    settlement_time: string
+    payment_type: PaymentType
+    order_id: string
+    merchant_id: string
+    issuer: Issuer
+    gross_amount: string
+    fraud_status: FraudStatus
+    expiry_time: string
+    currency: Currency
+    acquirer: Acquirer
   }
 
   class CoreApi {
