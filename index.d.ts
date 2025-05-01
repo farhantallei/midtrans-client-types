@@ -161,8 +161,15 @@ declare module "midtrans-client" {
   }
 
   class MidtransError extends Error {
-    httpStatusCode: string | null
-    ApiResponse: string | null
-    rawHttpClientData: string | null
+    httpStatusCode: number | null
+    ApiResponse: any
+    rawHttpClientData: any
+
+    constructor(
+      message: string,
+      httpStatusCode?: number | null,
+      ApiResponse?: any,
+      rawHttpClientData?: any
+    )
   }
 }
