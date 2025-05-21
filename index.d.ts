@@ -1,5 +1,5 @@
 declare module "midtrans-client" {
-  export type StatusCode = "200" | "407"
+  export type StatusCode = "200" | "404" | "407"
 
   export type Currency = "IDR"
 
